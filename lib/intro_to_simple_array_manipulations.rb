@@ -3,3 +3,15 @@ def using_push(array, string)
   next_color = "violet"
   colors_in_the_rainbow.push next_color
 end
+
+def using_unshift(array, string)
+  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+  new_neighborhood = "Staten Island"
+  bouroughs_in_nyc.unshift new_neighborhodd
+end
+
+def using_pop (array)
+    continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+    continents.pop
+  end
+    
